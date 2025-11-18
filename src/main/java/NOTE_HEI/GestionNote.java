@@ -1,5 +1,6 @@
 package NOTE_HEI;
 
+import java.sql.SQLOutput;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +15,9 @@ public class GestionNote {
     public void ajouterNote(Notes note) {
         toutesLesNotes.add(note);
         System.out.println("Note ajoutée: " + note);
+        System.out.println("===== LISTE DE TOUTES LES NOTES =====");
+        System.out.println(toutesLesNotes);
+        System.out.println("=============================");
     }
 
 

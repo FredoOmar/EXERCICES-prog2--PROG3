@@ -27,6 +27,12 @@ public class Main {
 
             Notes noteAliceProg1 = new Notes(14.5, "Examen partiel", etudiant1, examenProg1);
             gestionnaire.ajouterNote(noteAliceProg1);
+            Notes noteAliceProg2 = new Notes(14, "Examen final", etudiant1, examenProg1);
+            gestionnaire.ajouterNote(noteAliceProg2);
+            Notes noteAliceLv1 = new Notes(18, "Examen partiel", etudiant2, examenProg2);
+            gestionnaire.ajouterNote(noteAliceLv1);
+            Notes noteAliceApi = new Notes(16, "Examen  final ", etudiant2, examenProg2);
+            gestionnaire.ajouterNote(noteAliceApi);
 
             Notes noteBobProg1 = new Notes(12.0, "Examen partiel", etudiant2, examenProg1);
             gestionnaire.ajouterNote(noteBobProg1);

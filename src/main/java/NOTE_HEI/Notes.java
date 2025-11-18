@@ -20,7 +20,7 @@ public class Notes {
         this.examen = examen;
         this.historique = new ArrayList<>();
 
-        // Ajouter la création comme premier changement
+
         this.historique.add(new ChangementNote(0.0, note, "Création - " + motif));
     }
 
